@@ -971,8 +971,10 @@
 
         // Merge PDF functions
         function handleMergeFiles(files) {
-            mergeFiles = Array.from(files).filter(f => f.type === 'application/pdf');
+            const newFiles = Array.from(files).filter(f => f.type === 'application/pdf');
+            mergeFiles = [...mergeFiles, ...newFiles];
             updateMergeList();
+        }
         }
 
         function updateMergeList() {
@@ -1525,5 +1527,6 @@
         });
     </script>
 </body>
+
 
 </html>

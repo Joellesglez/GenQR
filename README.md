@@ -54,7 +54,7 @@
 Simplemente descarga el archivo `index.html` y ábrelo en tu navegador. ¡No requiere instalación!
 
 # Clonar repositorio
-git clone https://github.com/tu-usuario/pdf-master.git
+git clone https://github.com/tu-usuario/QrGen.git
 
 # Entrar al directorio
 cd pdf-master
@@ -74,13 +74,21 @@ php -S localhost:8000
 
 # 🌟 Roadmap
 [ ] OCR para PDFs escaneados
+
 [ ] Firma digital de PDFs
+
 [ ] Rotación de páginas PDF
+
 [ ] Numeración de páginas
+
 [ ] Marca de agua en PDFs
+
 [ ] Conversión de PDF a Excel
+
 [ ] Modo claro/oscuro toggle
+
 [ ] PWA (Progressive Web App) para instalar en móvil
+
 [ ] Múltiples idiomas (i18n)
 
 ---
@@ -118,7 +126,9 @@ copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 ...
 
-🙏 Agradecimientos
+## 🙏 Agradecimientos
 PDF-Lib - Por la increíble librería de manipulación de PDFs
+
 Tailwind CSS - Por el framework CSS utilitario
-Lucide Icons - Por el set de iconos hermosos
+
+Lucide Icons - Por el set de iconos
